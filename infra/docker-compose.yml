@@ -1,0 +1,25 @@
+# Postgres only. The backend runs on your Mac (not in Docker) because the
+# Claude Code LLM engine needs your local `claude` login.
+# Port 5433 avoids clashing with the Homebrew Postgres already on 5432.
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: jobpilot-postgres
+    environment:
+      POSTGRES_USER: jobpilot
+      POSTGRES_PASSWORD: jobpilot
+      POSTGRES_DB: jobpilot
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-test-db.sql:/docker-entrypoint-initdb.d/init-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jobpilot"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  pgdata:

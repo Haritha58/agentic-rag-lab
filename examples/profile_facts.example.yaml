@@ -1,0 +1,34 @@
+# Sample facts file. Copy to data/profile_facts.yaml and replace with your own experience.
+# kind: professional | personal_project | learning | certification | education | publication | award
+# needs_confirmation: true  -> stored, but never handed to the AI until you confirm it
+
+person:
+  name: Alex Example
+  location: Bengaluru, India
+  email: alex@example.com
+
+employment:
+  - id: acme
+    company: Acme Software
+    title_on_resume: Senior Software Engineer
+    official_title: Senior Software Engineer
+    location: Bengaluru, India
+    start: 2019-06
+    end: null
+
+facts:
+  - id: f01
+    kind: professional
+    employer: acme
+    text: Built Spring Boot microservices on AWS ECS for an order-processing platform.
+    skills: [Java 17, Spring Boot 3, Microservices, AWS ECS]
+  - id: f02
+    kind: professional
+    employer: acme
+    text: Added an LLM-based summary of failed builds, with retries and a daily cost cap.
+    skills: [LLM APIs, Prompt engineering, Python]
+    needs_confirmation: true
+  - id: l01
+    kind: learning
+    text: Studying RAG, embeddings, vector databases and LangGraph.
+    skills: [RAG, Embeddings, Vector databases, LangGraph]

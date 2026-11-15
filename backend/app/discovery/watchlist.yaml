@@ -1,0 +1,81 @@
+# Verified company watchlist (probed 2026-11-12). Sizes are curated estimates (size_source: curated_estimate).
+# category: 1 = medium / established startup, 2 = large established, 3 = highly competitive. Override in the dashboard.
+companies:
+  - {name: "Airbyte", ats: ashby, slug: "airbyte", category: 1, size_band: "50-200"}
+  - {name: "AssemblyAI", ats: greenhouse, slug: "assemblyai", category: 1, size_band: "50-200"}
+  - {name: "Atlan", ats: ashby, slug: "atlan", category: 1, size_band: "200-1000"}
+  - {name: "Contentful", ats: greenhouse, slug: "contentful", category: 1, size_band: "200-1000"}
+  - {name: "CRED", ats: lever, slug: "cred", category: 1, size_band: "1000-2000"}
+  - {name: "Deepgram", ats: ashby, slug: "deepgram", category: 1, size_band: "200-1000"}
+  - {name: "Druva", ats: greenhouse, slug: "druva", category: 1, size_band: "1000-2000"}
+  - {name: "Fi Money", ats: lever, slug: "fi", category: 1, size_band: "200-1000"}
+  - {name: "GetYourGuide", ats: ashby, slug: "getyourguide", category: 1, size_band: "200-1000"}
+  - {name: "Grafana Labs", ats: greenhouse, slug: "grafanalabs", category: 1, size_band: "1000-2000"}
+  - {name: "Harness", ats: greenhouse, slug: "harnessinc", category: 1, size_band: "1000-2000"}
+  - {name: "Hevo Data", ats: lever, slug: "hevodata", category: 1, size_band: "200-1000"}
+  - {name: "Hightouch", ats: ashby, slug: "hightouch", category: 1, size_band: "50-200"}
+  - {name: "LangChain", ats: ashby, slug: "langchain", category: 1, size_band: "50-200"}
+  - {name: "Mindtickle", ats: lever, slug: "mindtickle", category: 1, size_band: "200-1000"}
+  - {name: "Mollie", ats: ashby, slug: "mollie", category: 1, size_band: "200-1000"}
+  - {name: "n8n", ats: ashby, slug: "n8n", category: 1, size_band: "200-1000"}
+  - {name: "Observe.AI", ats: greenhouse, slug: "observeai", category: 1, size_band: "200-1000"}
+  - {name: "Pinecone", ats: ashby, slug: "pinecone", category: 1, size_band: "50-200"}
+  - {name: "PostHog", ats: ashby, slug: "posthog", category: 1, size_band: "50-200"}
+  - {name: "Sarvam AI", ats: ashby, slug: "sarvam", category: 1, size_band: "200-1000"}
+  - {name: "Sentry", ats: ashby, slug: "sentry", category: 1, size_band: "200-1000"}
+  - {name: "Sigmoid", ats: greenhouse, slug: "sigmoid", category: 1, size_band: "1000-2000"}
+  - {name: "Slice", ats: greenhouse, slug: "slice", category: 1, size_band: "1000-2000"}
+  - {name: "SumUp", ats: greenhouse, slug: "sumup", category: 1, size_band: "2000-5000"}
+  - {name: "Supabase", ats: ashby, slug: "supabase", category: 1, size_band: "50-200"}
+  - {name: "Temporal", ats: ashby, slug: "temporal", category: 1, size_band: "200-1000"}
+  - {name: "Tide", ats: greenhouse, slug: "tide", category: 1, size_band: "1000-2000"}
+  - {name: "Truecaller", ats: greenhouse, slug: "truecaller", category: 1, size_band: "200-1000"}
+  - {name: "Turing", ats: greenhouse, slug: "turing", category: 1, size_band: "1000-2000"}
+  - {name: "Unacademy", ats: smartrecruiters, slug: "unacademy", category: 1, size_band: "1000-2000"}
+  - {name: "Weaviate", ats: ashby, slug: "weaviate", category: 1, size_band: "50-200"}
+  - {name: "Whatfix", ats: smartrecruiters, slug: "whatfix", category: 1, size_band: "200-1000"}
+  - {name: "Zeta", ats: lever, slug: "zeta", category: 1, size_band: "1000-2000"}
+  - {name: "Zilliz", ats: lever, slug: "zilliz", category: 1, size_band: "50-200"}
+  - {name: "Adyen", ats: greenhouse, slug: "adyen", category: 2, size_band: "2000-5000"}
+  - {name: "Canonical", ats: greenhouse, slug: "canonical", category: 2, size_band: "1000-2000"}
+  - {name: "Cars24", ats: smartrecruiters, slug: "cars24", category: 2, size_band: "5000-10000"}
+  - {name: "Celonis", ats: greenhouse, slug: "celonis", category: 2, size_band: "2000-5000"}
+  - {name: "Elastic", ats: greenhouse, slug: "elastic", category: 2, size_band: "2000-5000"}
+  - {name: "Freshworks", ats: smartrecruiters, slug: "freshworks", category: 2, size_band: "5000-10000"}
+  - {name: "GitLab", ats: greenhouse, slug: "gitlab", category: 2, size_band: "2000-5000"}
+  - {name: "Grab", ats: smartrecruiters, slug: "grab", category: 2, size_band: "10000+"}
+  - {name: "Groww", ats: greenhouse, slug: "groww", category: 2, size_band: "1000-2000"}
+  - {name: "Intercom", ats: greenhouse, slug: "intercom", category: 2, size_band: "1000-2000"}
+  - {name: "Meesho", ats: lever, slug: "meesho", category: 2, size_band: "1000-2000"}
+  - {name: "Miro", ats: ashby, slug: "miro", category: 2, size_band: "1000-2000"}
+  - {name: "MongoDB", ats: greenhouse, slug: "mongodb", category: 2, size_band: "5000-10000"}
+  - {name: "Monzo", ats: greenhouse, slug: "monzo", category: 2, size_band: "2000-5000"}
+  - {name: "N26", ats: greenhouse, slug: "n26", category: 2, size_band: "1000-2000"}
+  - {name: "Okta", ats: greenhouse, slug: "okta", category: 2, size_band: "5000-10000"}
+  - {name: "Remote.com", ats: greenhouse, slug: "remote", category: 2, size_band: "1000-2000"}
+  - {name: "Rubrik", ats: greenhouse, slug: "rubrik", category: 2, size_band: "2000-5000"}
+  - {name: "Swiggy", ats: smartrecruiters, slug: "swiggy", category: 2, size_band: "5000-10000"}
+  - {name: "Thoughtworks", ats: greenhouse, slug: "thoughtworks", category: 2, size_band: "10000+"}
+  - {name: "Trade Republic", ats: greenhouse, slug: "traderepublicbank", category: 2, size_band: "200-1000"}
+  - {name: "Twilio", ats: greenhouse, slug: "twilio", category: 2, size_band: "5000-10000"}
+  - {name: "Vercel", ats: greenhouse, slug: "vercel", category: 2, size_band: "200-1000"}
+  - {name: "Wise", ats: greenhouse, slug: "wise", category: 2, size_band: "5000-10000"}
+  - {name: "Zapier", ats: ashby, slug: "zapier", category: 2, size_band: "200-1000"}
+  - {name: "Zscaler", ats: greenhouse, slug: "zscaler", category: 2, size_band: "5000-10000"}
+  - {name: "Anthropic", ats: greenhouse, slug: "anthropic", category: 3, size_band: "1000-2000"}
+  - {name: "Cloudflare", ats: greenhouse, slug: "cloudflare", category: 3, size_band: "2000-5000"}
+  - {name: "Cohere", ats: ashby, slug: "cohere", category: 3, size_band: "200-1000"}
+  - {name: "Databricks", ats: greenhouse, slug: "databricks", category: 3, size_band: "5000-10000"}
+  - {name: "Datadog", ats: greenhouse, slug: "datadog", category: 3, size_band: "5000-10000"}
+  - {name: "ElevenLabs", ats: ashby, slug: "elevenlabs", category: 3, size_band: "200-1000"}
+  - {name: "Glean", ats: greenhouse, slug: "gleanwork", category: 3, size_band: "1000-2000"}
+  - {name: "Linear", ats: ashby, slug: "linear", category: 3, size_band: "50-200"}
+  - {name: "Notion", ats: ashby, slug: "notion", category: 3, size_band: "1000-2000"}
+  - {name: "OpenAI", ats: ashby, slug: "openai", category: 3, size_band: "2000-5000"}
+  - {name: "Perplexity", ats: ashby, slug: "perplexity", category: 3, size_band: "200-1000"}
+  - {name: "Ramp", ats: greenhouse, slug: "ramp", category: 3, size_band: "1000-2000"}
+  - {name: "Replit", ats: ashby, slug: "replit", category: 3, size_band: "50-200"}
+  - {name: "Scale AI", ats: greenhouse, slug: "scaleai", category: 3, size_band: "1000-2000"}
+  - {name: "Spotify", ats: lever, slug: "spotify", category: 3, size_band: "5000-10000"}
+  - {name: "Stripe", ats: greenhouse, slug: "stripe", category: 3, size_band: "5000-10000"}
+  - {name: "Together AI", ats: greenhouse, slug: "togetherai", category: 3, size_band: "200-1000"}
